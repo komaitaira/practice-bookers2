@@ -40,6 +40,7 @@
     <div class="body" >
       <div class="container">
         <p id="notice"><%= notice %></p> <!--デバイスでnotice設定されているので呼び出してるだけ-->
+        <%= flash[:success] %>
         <%= yield %>
       </div>
     </div>
